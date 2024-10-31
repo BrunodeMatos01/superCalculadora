@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno.matos1\\source\\repos\\SuperCalculadora\\SuperCalculadora.csproj": {}
+    "C:\\Users\\bruno.matos1\\Documents\\Atividade em grupo\\SuperCalculadora\\SuperCalculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno.matos1\\source\\repos\\SuperCalculadora\\SuperCalculadora.csproj": {
+    "C:\\Users\\bruno.matos1\\Documents\\Atividade em grupo\\SuperCalculadora\\SuperCalculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno.matos1\\source\\repos\\SuperCalculadora\\SuperCalculadora.csproj",
+        "projectUniqueName": "C:\\Users\\bruno.matos1\\Documents\\Atividade em grupo\\SuperCalculadora\\SuperCalculadora.csproj",
         "projectName": "SuperCalculadora",
-        "projectPath": "C:\\Users\\bruno.matos1\\source\\repos\\SuperCalculadora\\SuperCalculadora.csproj",
+        "projectPath": "C:\\Users\\bruno.matos1\\Documents\\Atividade em grupo\\SuperCalculadora\\SuperCalculadora.csproj",
         "packagesPath": "C:\\Users\\bruno.matos1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno.matos1\\source\\repos\\SuperCalculadora\\obj\\",
+        "outputPath": "C:\\Users\\bruno.matos1\\Documents\\Atividade em grupo\\SuperCalculadora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
