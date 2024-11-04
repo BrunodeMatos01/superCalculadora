@@ -59,10 +59,18 @@ namespace SuperCalculadora
                 case "/":
                     {
                         Divisao divisao = new Divisao();
-                        somaTotal = divisao.Dividir(nmr1, nmr2);
-                        Console.WriteLine($"A divisão de {nmr1} por {nmr2} = {somaTotal}");
+                        if(nmr2 == 0)
+                        {
+                            Console.WriteLine("*ERRO* Divisão pro 0 não pe possivel");
+                            break;
+                        }
+                        else
+                        {
+                            somaTotal = divisao.Dividir(nmr1, nmr2);
+                            Console.WriteLine($"A divisão de {nmr1} por {nmr2} = {somaTotal}");
 
-                        break;
+                            break;
+                        }
                     }
                 default:
                     Console.WriteLine("Está operação não existe. (+|-|*|/)");
