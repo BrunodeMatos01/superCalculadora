@@ -6,7 +6,7 @@ Usamos classes, lógica e recursos do C# 🖥️.
 
 ## 👥 Autores
 
-- [@boorgees](https://www.github.com/octokatherine) 🧑‍💻
+- [@boorgees](https://github.com/boorgees) 🧑‍💻
 - [@BrunodeMatos01](https://github.com/BrunodeMatos01) 👨‍💻
 - [@zago7](https://github.com/zago7) 👨‍💻
 - HUGO LYRA MARTINS VIANA 🧑‍💻
