@@ -12,70 +12,16 @@ namespace SuperCalculadora
         {
             Console.WriteLine(" BEM VINDO A SUPER CALCULADORA\n");
             Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
-            Console.WriteLine("Voce pode informar 2 numeros");
-            Console.WriteLine(" + para somar.");
-            Console.WriteLine(" - para subtrair.");
-            Console.WriteLine(" * para mutiplicar.");
-            Console.WriteLine(" / para dividir.");
-            Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
+            string operacao = "";
+            RecebeNumeros receba = new RecebeNumeros();
 
-            Console.WriteLine("Informe o primeiro numero :");
-            double nmr1 = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Informe a operação desejada :");
-            string operacao = Console.ReadLine();
-
-            Console.WriteLine("Informe o segundo numero : ");
-            double nmr2 = double.Parse(Console.ReadLine());
-
-            double somaTotal = 0;
-
-            switch (operacao)
+            do
             {
-                case "+":
-                    {
-                        Soma soma = new Soma();
-                        somaTotal = soma.Somar(nmr1, nmr2);
-                        Console.WriteLine($"A soma de {nmr1} por {nmr2} = {somaTotal}");
+                operacao = receba.OperaNumeros(0, 0, "");
+            } while (operacao.ToUpper() != "OK");
 
-                        break;
-                    }
-                case "-":
-                    {
-                        Subtracao subtracao = new Subtracao();
-                        somaTotal = subtracao.Subtrair(nmr1, nmr2);
-                        Console.WriteLine($"A subtração de {nmr1} por {nmr2} = {somaTotal}");
-
-                        break;
-                    }
-                case "*":
-                    {
-                        Multiplicacao multiplicacao = new Multiplicacao();
-                        somaTotal = multiplicacao.Multiplicar(nmr1, nmr2);
-                        Console.WriteLine($"A mutiplicação entre {nmr1} e {nmr2} = {somaTotal}");
-
-                        break;
-                    }
-                case "/":
-                    {
-                        Divisao divisao = new Divisao();
-                        if(nmr2 == 0)
-                        {
-                            Console.WriteLine("*ERRO* Divisão pro 0 não pe possivel");
-                            break;
-                        }
-                        else
-                        {
-                            somaTotal = divisao.Dividir(nmr1, nmr2);
-                            Console.WriteLine($"A divisão de {nmr1} por {nmr2} = {somaTotal}");
-
-                            break;
-                        }
-                    }
-                default:
-                    Console.WriteLine("Está operação não existe. (+|-|*|/)");
-                    break;
-            }
+            System.Console.WriteLine("ENCERRANDO A SUPER CALCULADORA...");
+            Thread.Sleep(2000);
         }
     }
 }
