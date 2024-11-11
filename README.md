@@ -9,4 +9,4 @@ Usamos classes, lógica e recursos do C# 🖥️.
 - [@boorgees](https://github.com/boorgees) 🧑‍💻
 - [@BrunodeMatos01](https://github.com/BrunodeMatos01) 👨‍💻
 - [@zago7](https://github.com/zago7) 👨‍💻
-- HUGO LYRA MARTINS VIANA 🧑‍💻
+- [@hugolmv](https://github.com/hugolmv) 🧑‍💻
